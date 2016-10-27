@@ -7,3 +7,4 @@ Email Template Id is the template you want to use for this email
 
 
 ### Screenshot
+![](https://github.com/mohan-chinnappan-n/sfdc-mass-email/blob/master/SendEmail.png)

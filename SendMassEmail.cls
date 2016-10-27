@@ -30,13 +30,11 @@ public with sharing class SendMassEmail {
         // set the email template
         mail.setTemplateID(templateId);
         // send it
-        /*
         List<Messaging.SendEmailResult> results = Messaging.sendEmail(new Messaging.MassEmailMessage[] {mail}); 
         Messaging.sendEmail(new Messaging.MassEmailMessage[] {mail});
         
         System.assertEquals(1, results.size());
         System.assertEquals(true, results[0].success);
-        */
         
         
     }
