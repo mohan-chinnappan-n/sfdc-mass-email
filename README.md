@@ -21,12 +21,12 @@ MW will upsert  DL (Account; Account.Name will have DL Name) and Contacts for th
 Example:
 
 ```
-Account.Name = DL134143414
+Account.Name = 'DL134143414'
 
 This Account will have 1 or many Contacts
 
     Each of these Contacts will have email of DL members
 
-DL134143414 -> (one@domain.com, two@domain.com,...)
+'DL134143414' -> ('one@domain.com', 'two@domain.com',...)
 
 ```
