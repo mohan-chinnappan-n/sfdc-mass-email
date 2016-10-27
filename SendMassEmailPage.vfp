@@ -3,7 +3,6 @@
     <div class="container">
         <apex:form >
             <apex:pageBlock >
-
                 <div class="panel panel-default">
                     <div class="panel-heading">Send Email</div>
                     <div class="panel-body">
@@ -16,8 +15,6 @@
                         <div class="row">
 
                             <div class="col-sm-4">
-
-
                                 <apex:outputLabel value="* Account Name: " for="accountName"/>
                                 <apex:input value="{!accountName}" id="accountName" rendered="true"/>
                             </div>
@@ -33,7 +30,6 @@
                                 <apex:commandButton action="{!sendEmail}" value="Send Email" id="sendEmail"/>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </apex:pageBlock>
