@@ -12,4 +12,6 @@ Email Template Id is the template you want to use for this email
 
 
 ### Sequence Diagram
-![Sequence Diagram](https://github.com/mohan-chinnappan-n/sfdc-mass-email/blob/master/email-seq-dwg.png)
+![Sequence Diagram  ](https://github.com/mohan-chinnappan-n/sfdc-mass-email/blob/master/email-seq-dwg.png)
+
+MW: Middleware
