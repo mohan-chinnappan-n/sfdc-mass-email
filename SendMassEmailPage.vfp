@@ -13,7 +13,6 @@
                         <em>Email Template Id</em> is the template you want to use for this email
                         <hr/>
                         <div class="row">
-
                             <div class="col-sm-4">
                                 <apex:outputLabel value="* Account Name: " for="accountName"/>
                                 <apex:input value="{!accountName}" id="accountName" rendered="true"/>
@@ -30,6 +29,7 @@
                                 <apex:commandButton action="{!sendEmail}" value="Send Email" id="sendEmail"/>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </apex:pageBlock>
