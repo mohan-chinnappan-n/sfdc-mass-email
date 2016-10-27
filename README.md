@@ -23,7 +23,10 @@ Example:
 ```
 Account.Name = DL134143414
 
-This Account 1 or many Contacts
+This Account will have 1 or many Contacts
 
-Each of these Contacts will have email of DL members
+    Each of these Contacts will have email of DL members
+
+DL134143414 -> (one@domain.com, two@domain.com,...)
+
 ```
