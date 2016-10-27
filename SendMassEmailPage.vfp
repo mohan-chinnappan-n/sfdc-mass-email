@@ -1,0 +1,42 @@
+<apex:page controller="SendMassEmail" showHeader="false" standardStylesheets="false" docType="html-5.0">
+    <apex:stylesheet value="{!URLFOR($Resource.bootstrap)}" />
+    <div class="container">
+        <apex:form > 
+            <apex:pageBlock >
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">Send Email</div>
+                    <div class="panel-body">
+                        We can send emails to the all the Contacts associated with the given Account Name.
+                        <br/>
+                        <i>Account Name</i> can be partial (e.g: Grand Hotels%)
+                        <br/>
+                        <i>Email Template Id</i> is the template you want to use for this email
+                        <hr/>
+                        <div class="row">
+                            
+                            <div class="col-sm-4">
+                                
+                                
+                                <apex:outputLabel value="* Account Name: " for="accountName"/> 
+                                <apex:input value="{!accountName}" id="accountName" rendered="true"/>
+                            </div> 
+                            
+                            <div class="col-sm-4">
+                                <apex:outputLabel value="* Email Template Id: " for="templateId"/> 
+                                <apex:input value="{!templateId}" id="templateId" required="true"/>
+                            </div>
+                        </div>
+                        <hr/>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <apex:commandButton action="{!sendEmail}" value="Send Email" id="sendEmail"/>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>  
+            </apex:pageBlock>
+        </apex:form>
+    </div>
+</apex:page>
